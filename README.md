@@ -96,7 +96,7 @@ End-to-end analysis of a 2021 bank loan portfolio (38,576 loans, $435.8M funded)
 ## 📁 Dataset
 
 - **Size:** 38,576 loans × 24 columns, all issued in 2021.
-- **Source:** [add the link or name of where you got the data]
+- **Source:** [Advanced Bank Loan Data Analysis](https://www.kaggle.com/datasets/tusharnandanwar0805/advanced-bank-loan-data-analysis) on Kaggle, by tusharnandanwar0805.
 
 | Group | Columns |
 |---|---|
