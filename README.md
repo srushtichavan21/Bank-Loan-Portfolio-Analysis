@@ -39,7 +39,7 @@ End-to-end analysis of a 2021 bank loan portfolio (38,576 loans, $435.8M funded)
 - **Term:** 60-month loans default at **22.34%** vs **10.71%** for 36-month loans.
 - **Grade × term:** the gap holds in every grade except G. For example, grade C defaults at 14.02% (36m) vs 20.91% (60m).
 - **Purpose:** small business is the riskiest at **25.62%**, followed by renewable energy (18.09%) and educational (15.87%).
-- **DTI:** default rises from 12.00% (0-10%) to 14.39% (10-20%) to 15.60% (20-30%).
+- **Default Rate:** Default rate is 13.82% of all loans (14.23% of closed loans, excluding the 1,098 still repaying).
 
 ### Borrower insights
 - **Income:** default falls from **17.4%** (under $30K) to **10.4%** ($100K+). Average income is $69,645, median $60,000.
