@@ -1,5 +1,7 @@
 # 🏦 Bank Loan Portfolio & Credit Risk Analysis
 
+The project validates and prepares the data in Python, answers business questions in SQL, and delivers a 4-page Power BI dashboard...
+
 End-to-end analysis of a 2021 bank loan portfolio (38,576 loans, $435.8M funded) using **Python, MySQL, Excel and Power BI**. The project cleans the raw data, answers business questions in SQL, and delivers a 4-page Power BI dashboard that shows which loan and borrower segments drive defaults.
 
 ## 📊 Dashboard Preview
@@ -92,6 +94,22 @@ End-to-end analysis of a 2021 bank loan portfolio (38,576 loans, $435.8M funded)
 - Created `Loan_Category`: Good (Fully Paid), Bad (Charged Off), Current.
 - Computed portfolio KPIs and explored loans by grade, state, purpose and loan amount with Pandas, NumPy, Matplotlib and Seaborn.
 - Exported the result to `Bank_Loan_Python_Cleaned.csv`.
+
+## 🗄️ SQL Analysis
+
+All queries are in [`SQL/Bank_Loan_Portfolio_Analysis.sql`](SQL/Bank_Loan_Portfolio_Analysis.sql), organized in 25 sections:
+
+| Area | Sections |
+|---|---|
+| Data validation (duplicates, nulls, date range) | 1, 25 |
+| Portfolio KPIs, median loan amount | 2 |
+| Good vs bad loans, loan status | 3-5 |
+| Segments: term, purpose, home ownership, verification | 6-9 |
+| Grade and sub-grade risk | 10 |
+| State and monthly trends, month-over-month growth (window functions) | 11, 12, 21 |
+| Borrower: income, DTI, employment, interest rate | 13-17 |
+| Rankings, share-of-total, grade × home-ownership risk | 18-23 |
+
 
 ## 📁 Dataset
 
