@@ -82,13 +82,28 @@ End-to-end analysis of a 2021 bank loan portfolio (38,576 loans, $435.8M funded)
 └── README.md
 ```
 
-## 🧹 Data Cleaning
+## 🧹 Data Cleaning & EDA (Python)
 
-<!-- Fill in from your notebook: duplicates removed, null handling, type conversions, derived fields (loan category, income band, DTI band, loan size band). -->
+- Loaded 38,576 rows × 24 columns and checked for missing values, duplicate rows and duplicate `Loan_ID`s. There were no duplicates.
+- Only `Emp_Title` had missing values (5 rows), filled with `"Unknown"`.
+- Stripped extra whitespace from all text columns.
+- Converted currency columns (`Annual_Income`, `Loan_Amount`, `Total_Amount_Paid`) from text like `$30,000.00` to numeric.
+- Converted the four date columns to datetime and standardized them to `YYYY-MM-DD`.
+- Created `Loan_Category`: Good (Fully Paid), Bad (Charged Off), Current.
+- Computed portfolio KPIs and explored loans by grade, state, purpose and loan amount with Pandas, NumPy, Matplotlib and Seaborn.
+- Exported the result to `Bank_Loan_Python_Cleaned.csv`.
 
 ## 📁 Dataset
 
-<!-- Add source link, row/column count, and a short column dictionary (loan_status, grade, term, int_rate, dti, annual_income, loan_amount, purpose, home_ownership, verification_status, state, emp_length). -->
+- **Size:** 38,576 loans × 24 columns, all issued in 2021.
+- **Source:** [add the link or name of where you got the data]
+
+| Group | Columns |
+|---|---|
+| Identifiers | `Loan_ID`, `Member_ID` |
+| Loan details | `Loan_Amount`, `Loan_Term`, `Interest_Rate`, `Monthly_Installment`, `Purpose`, `Loan_Grade`, `Loan_Sub_Grade`, `Loan_Status`, `Total_Amount_Paid` |
+| Borrower | `Annual_Income`, `Debt_To_Income_Ratio`, `Emp_Title`, `Emp_Length`, `Home_Ownership`, `Verification_Status`, `Total_Accounts`, `State`, `Application_Type` |
+| Dates | `Issue_Date`, `Last_Credit_Pull_Date`, `Last_Payment_Date`, `Next_Payment_Date` |
 
 ## ▶️ How to Run
 
