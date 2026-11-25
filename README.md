@@ -5,16 +5,16 @@ End-to-end analysis of a 2021 bank loan portfolio (38,576 loans, $435.8M funded)
 ## 📊 Dashboard Preview
 
 **Executive Overview**
-![Executive Overview]("D:\Data Analyst\Projects\Bank Loan Portfolio\4. Power BI Dashboard\executive_overview.png")
+![Executive Overview](PowerBI/screenshots/executive_overview.png)
 
 **Loan Risk Analysis**
-![Loan Risk Analysis]("D:\Data Analyst\Projects\Bank Loan Portfolio\4. Power BI Dashboard\loan_risk.png)
+![Loan Risk Analysis](PowerBI/screenshots/loan_risk.png)
 
 **Borrower Profile and Segment Insights**
-![Borrower Insights]("D:\Data Analyst\Projects\Bank Loan Portfolio\4. Power BI Dashboard\borrower_insights.png")
+![Borrower Insights](PowerBI/screenshots/borrower_insights.png)
 
 **Key Insights and Recommendations**
-![Key Insights]("D:\Data Analyst\Projects\Bank Loan Portfolio\4. Power BI Dashboard\key_insights.png")
+![Key Insights](PowerBI/screenshots/key_insights.png)
 
 ## 🔑 Key Findings
 
